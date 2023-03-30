@@ -5,6 +5,7 @@ const words = document.querySelector('.random-word')
 const loader = document.querySelector('.loader')
 const input = document.querySelector('input')
 const container = document.querySelector('.container')
+
 let randomWord
 
 let counter = 0
