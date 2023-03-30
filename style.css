@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(32deg, #4ca81b , #b75cd0);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-block: 50px;
+    padding-left: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    /* border: 1px solid black; */
+}
+
+main{
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+main h1{
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 100px;
+}
+main p{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+main form input{
+    width: 300px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+}
+.images img{
+    width: 150px;
+}
+/* main form input::shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: 0.3s;
+} */
+.success{
+    box-shadow: 0 0 20px yellow;
+}
