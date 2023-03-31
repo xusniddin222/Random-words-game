@@ -31,7 +31,7 @@ document.addEventListener('keypress', (e) => {
 })
 
 form.addEventListener('input', () => {
-    if (input.value == randomWord) {
+    if (input.value.toLowerCase() == randomWord) {
         // console.log(1);
         word(api)
         form.reset()
